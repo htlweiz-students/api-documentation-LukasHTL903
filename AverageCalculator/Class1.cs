@@ -2,18 +2,18 @@
 public class AverageCalculator
 {
     private double[] value = new double[sizeof(double)];
-    private Int64 pointer;
+    private Int64 count;
 
     public AverageCalculator()
     {
-        this.pointer = 0;
+        this.count = 0;
     }
 
 
     public void Add(double number)
     {
-        this.value[pointer] = number;
-        this.pointer++;
+        this.value[count] = number;
+        this.count++;
     }
 
     public void Add(double[] number)
@@ -29,11 +29,11 @@ public class AverageCalculator
 
     public double getAverage(){
         double sum = 0;
-        for (int count = 0; count < this.pointer; count ++){
+        for (int count = 0; count < this.count; count ++){
             sum += this.value[count];
         }
 
-        double average = sum / this.pointer;
+        double average = sum / this.count;
 
         return average;
     }
