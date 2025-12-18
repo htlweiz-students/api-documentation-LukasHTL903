@@ -1,5 +1,5 @@
 ﻿using System;
-using AverageCalculator_nspc;
+using lib1;
 
 namespace workspace
 {
@@ -15,7 +15,8 @@ namespace workspace
 
             Console.WriteLine(back[0]);
             Console.WriteLine(back[1]);
-            Console.WriteLine(number.getAverage());
+            Console.WriteLine(number.GetAverage());
+            Console.WriteLine($"Lenght: {back.Length}");
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace AverageCalculator_nspc;
+﻿namespace lib1;
 public class AverageCalculator
 {
     private double[] value = new double[sizeof(double)];
@@ -12,7 +12,7 @@ public class AverageCalculator
 
     public void Add(double number)
     {
-        this.value[count] = number;
+        this.value[this.count] = number;
         this.count++;
     }
 
@@ -27,7 +27,7 @@ public class AverageCalculator
         }
     }
 
-    public double getAverage(){
+    public double GetAverage(){
         double sum = 0;
         for (int count = 0; count < this.count; count ++){
             sum += this.value[count];
@@ -40,6 +40,6 @@ public class AverageCalculator
 
     public double[] GetElements()
     {
-        return value;
+        return this.value;
     }
 }
