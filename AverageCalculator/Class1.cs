@@ -27,19 +27,36 @@ public class AverageCalculator
         }
     }
 
-    public double GetAverage(){
-        double sum = 0;
-        for (int count = 0; count < this.count; count ++){
-            sum += this.value[count];
+    public double GetAverage()
+    {
+        if (this.count != 0)
+        {
+            double sum = 0;
+            for (int count = 0; count < this.count; count++)
+            {
+                sum += this.value[count];
+            }
+
+
+            double average = sum / this.count;
+            return average;
+        }
+        else
+        {
+            return 0;
         }
 
-        double average = sum / this.count;
-
-        return average;
     }
 
     public double[] GetElements()
     {
-        return this.value;
+        if (count == 0)
+        {
+            return Array.Empty<double>();
+        }
+        else
+        {
+            return this.value;
+        }
     }
 }

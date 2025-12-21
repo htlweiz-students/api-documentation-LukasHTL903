@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/config/workspace/api-documentation-LukasHTL903/Program/workspace.csproj": {}
+    "/workspace/api-documentation-LukasHTL903/Program/workspace.csproj": {}
   },
   "projects": {
-    "/config/workspace/api-documentation-LukasHTL903/AverageCalculator/AverageCalculator.csproj": {
+    "/workspace/api-documentation-LukasHTL903/AverageCalculator/AverageCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/config/workspace/api-documentation-LukasHTL903/AverageCalculator/AverageCalculator.csproj",
+        "projectUniqueName": "/workspace/api-documentation-LukasHTL903/AverageCalculator/AverageCalculator.csproj",
         "projectName": "AverageCalculator",
-        "projectPath": "/config/workspace/api-documentation-LukasHTL903/AverageCalculator/AverageCalculator.csproj",
+        "projectPath": "/workspace/api-documentation-LukasHTL903/AverageCalculator/AverageCalculator.csproj",
         "packagesPath": "/config/.nuget/packages/",
-        "outputPath": "/config/workspace/api-documentation-LukasHTL903/AverageCalculator/obj/",
+        "outputPath": "/workspace/api-documentation-LukasHTL903/AverageCalculator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/config/.nuget/NuGet/NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/config/workspace/api-documentation-LukasHTL903/Program/workspace.csproj": {
+    "/workspace/api-documentation-LukasHTL903/Program/workspace.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/config/workspace/api-documentation-LukasHTL903/Program/workspace.csproj",
+        "projectUniqueName": "/workspace/api-documentation-LukasHTL903/Program/workspace.csproj",
         "projectName": "workspace",
-        "projectPath": "/config/workspace/api-documentation-LukasHTL903/Program/workspace.csproj",
+        "projectPath": "/workspace/api-documentation-LukasHTL903/Program/workspace.csproj",
         "packagesPath": "/config/.nuget/packages/",
-        "outputPath": "/config/workspace/api-documentation-LukasHTL903/Program/obj/",
+        "outputPath": "/workspace/api-documentation-LukasHTL903/Program/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/config/.nuget/NuGet/NuGet.Config"
@@ -79,8 +79,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/config/workspace/api-documentation-LukasHTL903/AverageCalculator/AverageCalculator.csproj": {
-                "projectPath": "/config/workspace/api-documentation-LukasHTL903/AverageCalculator/AverageCalculator.csproj"
+              "/workspace/api-documentation-LukasHTL903/AverageCalculator/AverageCalculator.csproj": {
+                "projectPath": "/workspace/api-documentation-LukasHTL903/AverageCalculator/AverageCalculator.csproj"
               }
             }
           }

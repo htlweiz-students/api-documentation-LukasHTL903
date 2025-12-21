@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KDaU2pCeft9VA0D7tZtwpNa9XFZ2Waxi6MCR5/5NXMbESAnd8ZI3Yw7U7s8Zx7tXlRO1stwHyfRHQOTZXx/3Yw==",
+  "dgSpecHash": "KytILf4gjcOCOxLpvwdOIQsjLlo/T7HszkmPRAWge0NiV1MYV8VcTmmsOMqcDWQe/KKXrQgPhx0bGiLDVJy66A==",
   "success": true,
-  "projectFilePath": "/config/workspace/api-documentation-LukasHTL903/Program/workspace.csproj",
+  "projectFilePath": "/workspace/api-documentation-LukasHTL903/Program/workspace.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
