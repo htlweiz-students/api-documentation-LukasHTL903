@@ -1,7 +1,7 @@
 using lib1;
 
 namespace AverageCalculator_test;
-public class UnitTest1
+public class Tests_Average_Calculator
 {
     
 // Add Tests:
@@ -100,7 +100,7 @@ public class UnitTest1
         Assert.Equal(-20, test_numbs.GetElements()[3]);
     }
 
-         [Fact]
+        [Fact]
     public void GetElements_no_numbs(){
         var test_numbs = new AverageCalculator();
         double[] numbs = {};
