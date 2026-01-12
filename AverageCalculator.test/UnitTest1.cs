@@ -5,6 +5,10 @@ public class Tests_Average_Calculator
 {
     
 // Add Tests:
+
+/// <summary>
+/// 
+/// </summary>
     [Fact]
     public void Add_float(){
         var test_numbs = new AverageCalculator();
